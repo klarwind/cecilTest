@@ -20,7 +20,10 @@ public class Test2
     public static int each(int i)
     {
         if(i%2 == 0)
+        {
+            Debug.Log("Test2 return 2");
             return 2;
+        }
         Debug.Log("Test2 done");
         return i;
     } 
